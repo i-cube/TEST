@@ -1,4 +1,11 @@
-
+<?php
+$db_host = "dbhome.cs.nctu.edu.tw";
+$db_name = "elho210_cs_db";
+$db_user = "elho210_cs";
+$db_password = "000000";
+$dsn = "mysql:host=$db_host;dbname=$db_name";
+$db = new PDO($dsn, $db_user, $db_password);
+?>
 
 <!DOCTYPE HTML PUBLIC “-//W3C//DTD HTML 4.01 Transitional//EN" “http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
